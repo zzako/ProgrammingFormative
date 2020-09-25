@@ -1,0 +1,20 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ProgrammingFormative"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Maps="using:Windows.UI.Xaml.Controls.Maps"
+    x:Class="ProgrammingFormative.Pretoria"
+    mc:Ignorable="d">
+
+    <Grid Background="#FF5E57F3">
+        <Image HorizontalAlignment="Left" Height="203" VerticalAlignment="Top" Width="505" Source="Images/Pretoria.jpg" Margin="0,0,-145,0"/>
+        <TextBox HorizontalAlignment="Left" Margin="0,208,0,0" TextWrapping="Wrap" Text="Pretoria Campus&#xA;Contact Number: 012 361 6688 \ &#xA;012 470 9500&#xA;Email Address: enquiry@ctutraining.co.za&#xA;Physical Address: Glen Manor Office Park, Block 6 &#xA;Frikkie de Beer Street &#xA;Menlyn, Pretoria&#xA;Campus Manager: Estelle van der Walt" VerticalAlignment="Top" Height="233" Width="360" FontFamily="Comic Sans MS" Background="#66FFFFFF" FontSize="16"/>
+        <Button x:Name="btnMapPretoria" Content="Show Map" HorizontalAlignment="Left" Margin="10,444,0,0" VerticalAlignment="Top" Click="btnMapPretoria_Click" FontFamily="Comic Sans MS" Background="#33FFFFFF"/>
+
+        <Maps:MapControl x:Name="MyMapPretoria" HorizontalAlignment="Left" Margin="10,481,0,0" VerticalAlignment="Top" Width="337" Height="149"/>
+        <Button x:Name="btnBackPre" Content="Back" HorizontalAlignment="Left" Height="30" Margin="253,446,0,0" VerticalAlignment="Top" Width="94" Click="btnBackPre_Click" FontFamily="Comic Sans MS" Background="#33FFFFFF"/>
+
+    </Grid>
+</Page>

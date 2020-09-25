@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="ProgrammingFormative.Campuses"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ProgrammingFormative"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+<!--buttons used to navigate to other pages-->
+    <Grid Background="ForestGreen">
+        <Button x:Name="btnAucklandPark" Background="White" Content="Auckland Park" HorizontalAlignment="Left" Margin="10,92,0,0" VerticalAlignment="Top" Width="138" Click="btnAucklandPark_Click" FontFamily="Comic Sans MS"/>
+        <Button x:Name="btnSandton" Background="White" Content="Sandton" HorizontalAlignment="Left" Margin="210,92,0,0" VerticalAlignment="Top" Width="140" Click="btnSandton_Click" FontFamily="Comic Sans MS"/>
+        <Button x:Name="btnBoksburg" Background="White" Content="Boksburg" HorizontalAlignment="Left" Margin="210,185,0,0" VerticalAlignment="Top" Width="140" Click="btnBoksburg_Click" FontFamily="Comic Sans MS"/>
+        <Button x:Name="btnPretoria" Background="White" Content="Pretoria" HorizontalAlignment="Left" Margin="210,279,0,0" VerticalAlignment="Top" Width="140" Click="btnPretoria_Click" FontFamily="Comic Sans MS"/>
+        <Button x:Name="btnRoodepoort" Background="White" Content="Roodepoort" HorizontalAlignment="Left" Margin="10,185,0,0" VerticalAlignment="Top" Width="138" Click="btnRoodepoort_Click" FontFamily="Comic Sans MS"/>
+        <Button x:Name="btnVereeniging" Background="White" Content="Vereeniging" HorizontalAlignment="Left" Margin="10,279,0,0" VerticalAlignment="Top" Width="138" Click="btnVereeniging_Click" FontFamily="Comic Sans MS"/>
+        <Button x:Name="btnBackHome" Background="White" Content="Back" HorizontalAlignment="Left" Margin="111,361,0,0" VerticalAlignment="Top" Width="138" Click="btnBackHome_Click" FontFamily="Comic Sans MS"/>
+        <TextBox x:Name="List" HorizontalAlignment="Left" Margin="85,10,0,0" TextWrapping="Wrap" Text="Select a Campus!" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="20" FontWeight="Bold" Background="#66FFFFFF" Width="189"/>
+
+    </Grid>
+</Page>

@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="ProgrammingFormative.Activities"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ProgrammingFormative"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <!--background color is dark orange-->
+
+    <Grid Background="DarkOrange">
+        <Image HorizontalAlignment="Left" Height="363" Margin="555,10,0,0" VerticalAlignment="Top" Width="330" Source="focus.jpg" RenderTransformOrigin="1.056,0.503"/>
+        <Image HorizontalAlignment="Left" Height="169" Margin="555,476,0,0" VerticalAlignment="Top" Width="330" Source="open day.jpg" RenderTransformOrigin="2.117,0.821"/>
+        <Button x:Name="btnBackAct" Content="Back" HorizontalAlignment="Left" Margin="674,763,0,0" VerticalAlignment="Top" Width="98" Height="37" FontFamily="Comic Sans MS" Click="btnBackAct_Click" Background="#33FFFFFF" BorderBrush="White" RenderTransformOrigin="0.482,0.785"/>
+
+    </Grid>
+</Page>

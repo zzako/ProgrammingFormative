@@ -1,0 +1,18 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ProgrammingFormative"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Maps="using:Windows.UI.Xaml.Controls.Maps"
+    x:Class="ProgrammingFormative.Sandton"
+    mc:Ignorable="d">
+
+    <Grid Background="#FF5E57F3">
+        <Image HorizontalAlignment="Left" Height="203" VerticalAlignment="Top" Width="505" Source="Images/Sandton.jpg" Margin="0,0,-145,0"/>
+        <TextBox HorizontalAlignment="Left" Margin="0,208,0,0" TextWrapping="Wrap" Text="Sandton Campus&#xA;Contact Number: 011 666 7431&#xA;Email Address: enquiry@ctutraining.co.za&#xA;Physical Address: Suite 21, Second Floor, Daisy Street Office Park&#xA;135 Daisy Street, Sandown&#xA;Sandton, Johannesburg&#xA;Campus Manager: Alta Weeks" VerticalAlignment="Top" Height="218" Width="360" FontFamily="Comic Sans MS" FontSize="16"/>
+        <Button x:Name="btnMapSandton" Content="Show Map" HorizontalAlignment="Left" Margin="10,444,0,0" VerticalAlignment="Top" Click="btnMapSandton_Click" FontFamily="Comic Sans MS" Background="#33FFFFFF"/>
+        <Maps:MapControl x:Name="MyMapSandton" HorizontalAlignment="Left" Margin="10,481,0,0" VerticalAlignment="Top" Height="155" Width="340"/>
+        <Button x:Name="btnBackSand" Content="Back" HorizontalAlignment="Left" Margin="270,444,0,0" VerticalAlignment="Top" Width="80" Click="btnBackSand_Click" FontFamily="Comic Sans MS" Background="#33FFFFFF"/>
+    </Grid>
+</Page>

@@ -1,0 +1,18 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ProgrammingFormative"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Maps="using:Windows.UI.Xaml.Controls.Maps"
+    x:Class="ProgrammingFormative.Boksburg"
+    mc:Ignorable="d">
+
+    <Grid Background="#FF5E57F3">
+        <Image HorizontalAlignment="Left" Height="203" VerticalAlignment="Top" Width="505" Source="Images/Boksburg.jpg" Margin="0,0,-145,0"/> <!--Images moved to left using horizontal alignment-->
+        <TextBox HorizontalAlignment="Left" Margin="0,208,0,0" TextWrapping="Wrap" Text="Boksburg Campus&#xA;Contact Number: 011 918 1176&#xA;Email Address: enquiry@ctutraining.co.za&#xA;Physical Address: 36 Edgar Street, Everleigh&#xA;Boksburg&#xA;Campus Manager: Mari Wiese" VerticalAlignment="Top" Height="218" Width="360" FontFamily="Comic Sans MS" FontSize="18"/>
+        <Button x:Name="btnMapBoksburg" Content="Show Map" HorizontalAlignment="Left" Margin="10,444,0,0" VerticalAlignment="Top" Click="btnMapBoksburg_Click" FontFamily="Comic Sans MS" Background="#33FFFFFF"/>
+        <Maps:MapControl x:Name="MyMapBoksburg" HorizontalAlignment="Left" Margin="10,481,0,0" VerticalAlignment="Top" Width="340" Height="149"/>
+        <Button x:Name="btnBackBok" Content="Back" HorizontalAlignment="Left" Margin="260,444,0,0" VerticalAlignment="Top" Click="btnBackBok_Click" FontFamily="Comic Sans MS" Background="#33FFFFFF" Width="90"/>
+    </Grid>
+</Page>

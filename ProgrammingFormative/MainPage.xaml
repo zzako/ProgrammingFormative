@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="ProgrammingFormative.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ProgrammingFormative"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Indigo">
+        <Button x:Name="btnCampus" Content="Campuses" Background="White" HorizontalAlignment="Left" Margin="502,492,0,0" VerticalAlignment="Top" Width="146" Click="btnCampus_Click" FontFamily="Comic Sans MS"/>
+        <Button x:Name="btnModules" Background="White" Content="MCSD Modules" HorizontalAlignment="Left" Margin="871,492,0,0" VerticalAlignment="Top" Width="145" Click="Button_Click" FontFamily="Comic Sans MS" RenderTransformOrigin="4.972,2.212"/>
+        <Image HorizontalAlignment="Left" Height="112" VerticalAlignment="Top" Width="360" Source="Images/ctu-training-solutions-large-logo.png" Margin="573,105,0,0"/>
+        <Image HorizontalAlignment="Left" Height="120" Margin="573,202,0,0" VerticalAlignment="Top" Width="360" Source="Images/Capture.JPG"/>
+        <Image HorizontalAlignment="Left" Height="68" Margin="573,304,0,0" VerticalAlignment="Top" Width="360" Source="Images/Capture2.JPG"/>
+        <Button x:Name="btnActivities" Content="Activities" Background="White" HorizontalAlignment="Left" Margin="695,573,0,0" VerticalAlignment="Top" Width="146" Click="btnActivities_Click" FontFamily="Comic Sans MS"/>
+
+
+    </Grid>
+</Page>
